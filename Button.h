@@ -7,7 +7,7 @@ class Button {
 
   public:
     Button(int pin);
-    unsigned long threshold = 250;
+    unsigned long threshold = 0;
     bool repeats = false;
     bool isDown();
 };
